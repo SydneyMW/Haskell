@@ -65,6 +65,11 @@ main = do
     putStrLn $ "Sort 2: " ++ show (qsort2 ints)
     putStrLn $ "Sort 3: " ++ show (qsort3 ints)
 
+    {- USAGE: (powershell or terminal, cd to dir)
+    ghc "quicksort.hs"
+    ./quicksort
+    -}
+
     {- USAGE:
     :load "./Midterm review/quicksort.hs"
     quicksort
